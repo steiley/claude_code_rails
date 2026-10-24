@@ -7,7 +7,7 @@ This tool provides files for using Claude Code in Ruby on Rails applications.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'slim2haml'
+gem 'claude_code_rails'
 ```
 
 And then execute:
