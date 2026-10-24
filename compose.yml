@@ -1,0 +1,14 @@
+services:
+
+  #
+  # メインコンテナ
+  #
+  app:
+    build: .
+    image: ccr:4.0.9
+
+    volumes:
+      - .:/workspace:cached
+      - ./vendor/bundle/4.0:/usr/local/bundle:cached
+
+    command: ash
