@@ -8,10 +8,6 @@ RSpec.describe ClaudeCodeRails do
     expect(ClaudeCodeRails::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
-  end
-
   it "copies the template into the current directory's .claude folder" do
     original_application = Rake.application
     Rake.application = Rake::Application.new
